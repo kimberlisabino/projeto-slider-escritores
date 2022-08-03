@@ -1,0 +1,38 @@
+@media(max-width: 620px) {
+    main {
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    button {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        height: 480px;
+    }
+
+    .card img {
+        max-height: 230px;   
+    }
+
+    .card .name h2 {
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .card .name p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 400px) {
+    header h1 {
+        font-size: 25px;   
+    }
+}

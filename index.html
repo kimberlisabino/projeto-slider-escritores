@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Escritores Slider</title>
+
+    <link rel="shortcut icon" href="src/images/book-icon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+</head>
+<body>
+    <header>
+        <img src="src/images/book-icon.png" alt="ícone de livro">
+        <h1>Escritores Brasileiros</h1>
+    </header>
+
+    <main>
+        <button id="btn-voltar">
+            <img src="src/images/seta.png" alt="seta voltar" id="inverter">
+        </button>
+
+        <ul>
+            <li id="machado" class="card first">
+                <div class="name">
+                    <h2>Machado</h2>
+                    <p>Realismo</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/machado.png" alt="Machado de Assis">
+                </div>
+
+                <div class="description">
+                    <h3>Descrição</h3>
+                    <p>Ocupando uma posição de destaque entre os grandes autores da literatura brasileira, o escritor carioca Machado de Assis foi responsável por inaugurar o Realismo no Brasil com a obra "Memórias Póstumas de Brás Cubas", em 1881. Sua escrita é objetiva, irônica, dialógica e crítica.</p>
+                </div>
+            </li> 
+            <li id="clarice" class="card">
+                <div class="name">
+                    <h2>Lispector</h2>
+                    <p>Modernismo</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/clarice.png" alt="Clarice Lispector">
+                </div>
+
+                <div class="description">
+                    <h3>Descrição</h3>
+                    <p>Nascida na Ucrânia, Haya Pinkhasovna Lispector chegou ao Brasil com apenas dois meses e tornou-se Clarice Lispector, uma das renomadas escritoras da terceira fase do modernismo brasileiro, chamada de "Geração de 45". Sua escrita é passional, subjetiva, sensível e poética. </p>
+                </div>
+            </li> 
+            <li id="drummond" class="card">
+                <div class="name">
+                    <h2>Drummond</h2>
+                    <p>Modernismo</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/drummond.png" alt="Drummond">
+                </div>
+
+                <div class="description">
+                    <h3>Descrição</h3>
+                    <p>Poeta, contista e cronista, o escritor mineiro Carlos Drummond de Andrade fez parte da segunda geração moderna, a "Geração de 30". Conhecido pelo poema "No meio do caminho", um escândalo literário na época. Sua escrita é reflexiva, sentimental, questionadora e informal.</p>
+                </div>
+            </li> 
+        </ul>
+       
+        <button id="btn-avancar">
+            <img src="src/images/seta.png" alt="seta avançar">
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
